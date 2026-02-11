@@ -28,15 +28,15 @@ aws-terraform-infrastructure/
 └── README.md
 ```
 
-# 🛠 Prerequisites
+## 🛠 Prerequisites
 	
 * 	**Terraform** (v1.0+)
 
 * 	**AWS CLI** configured with appropriate IAM permissions
 
-* 	** **An AWS Account
+* 	An AWS Account
 
-# 🚦 Getting Started
+## 🚦 Getting Started
 
 * *1. Clone the repository:*
 
@@ -56,10 +56,10 @@ terraform plan
 ```text
 terraform apply
 ```
-# 🛡 Security & Best Practices
+## 🛡 Security & Best Practices
 
 *	*. Least Privilege:* Security groups are restricted to only necessary ports (e.g., HTTP 80 for ALB).
 *	*. State Management:* (Optional) Configure an S3 backend for remote state locking and team collaboration.
 *	*. Data Isolation:* Application instances reside in private subnets with no direct internet access.
 
-* *Maintained by* Mahesh Pawar Cloud Architect
+*Maintained by* Mahesh Pawar Cloud Architect
