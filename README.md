@@ -38,28 +38,28 @@ aws-terraform-infrastructure/
 
 ## 🚦 Getting Started
 
-* *1. Clone the repository:*
+* **1.Clone the repository:**
 
 ```text
 git clone [https://github.com/mpawar006/aws-terraform-infrastructure.git](https://github.com/mpawar006/aws-terraform-infrastructure.git)
 cd aws-terraform-infrastructure/environments/prod
 ```
-* *2. Initialize Terraform:*
+* **2.Initialize Terraform:**
 ```text
 terraform init
 ```
-* *3. Plan the deployment:*
+* **3.Plan the deployment:**
 ```text
 terraform plan
 ```
-* *4. Apply the configuration:*
+* **4.Apply the configuration:**
 ```text
 terraform apply
 ```
 ## 🛡 Security & Best Practices
 
-*	*. Least Privilege:* Security groups are restricted to only necessary ports (e.g., HTTP 80 for ALB).
-*	*. State Management:* (Optional) Configure an S3 backend for remote state locking and team collaboration.
-*	*. Data Isolation:* Application instances reside in private subnets with no direct internet access.
+*	**Least Privilege:** Security groups are restricted to only necessary ports (e.g., HTTP 80 for ALB).
+*	**State Management:** (Optional) Configure an S3 backend for remote state locking and team collaboration.
+*	**Data Isolation:** Application instances reside in private subnets with no direct internet access.
 
-*Maintained by* Mahesh Pawar Cloud Architect
+**Maintained by** Mahesh Pawar | Cloud Architect
