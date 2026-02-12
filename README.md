@@ -62,4 +62,4 @@ terraform apply
 *	**State Management:** (Optional) Configure an S3 backend for remote state locking and team collaboration.
 *	**Data Isolation:** Application instances reside in private subnets with no direct internet access.
 
-**Maintained by** Mahesh Pawar | Cloud Architect
+**Maintained by** Mahesh Pawar | Cloud Architect | DevOps Engineer
